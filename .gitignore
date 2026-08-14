@@ -3,7 +3,6 @@ __pycache__/
 *.pyc
 
 .ipynb_checkpoints/
-
 .vscode/
 
 data/raw/*
@@ -13,5 +12,8 @@ models/*.keras
 models/*.h5
 
 *.log
-
 .env
+
+*.egg-info/
+build/
+dist/
