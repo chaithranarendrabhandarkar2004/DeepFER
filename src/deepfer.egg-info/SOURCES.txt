@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+src/__init__.py
+src/config.py
+src/face_detector.py
+src/model.py
+src/predict.py
+src/train.py
+src/deepfer.egg-info/PKG-INFO
+src/deepfer.egg-info/SOURCES.txt
+src/deepfer.egg-info/dependency_links.txt
+src/deepfer.egg-info/requires.txt
+src/deepfer.egg-info/top_level.txt
