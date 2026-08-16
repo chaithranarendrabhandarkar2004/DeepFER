@@ -27,8 +27,6 @@ def load_emotion_model():
 
     from src.model import build_model
     model = build_model()
-    MODEL_PATH.parent.mkdir(parents=True, exist_ok=True)
-    model.save(MODEL_PATH)
     return model
 
 

@@ -47,3 +47,28 @@ def plot_training_history(history):
 
     plt.tight_layout()
     return fig
+
+
+def plot_confusion_matrix(cm, class_names, save_path=None):
+    """
+    Plots and optionally saves a heatmap visualization of the Confusion Matrix.
+    """
+    fig, ax = plt.subplots(figsize=(8, 6))
+    sns.heatmap(
+        cm,
+        annot=True,
+        fmt="d",
+        cmap="Blues",
+        xticklabels=class_names,
+        yticklabels=class_names,
+        ax=ax,
+    )
+    ax.set_xlabel("Predicted Label", fontsize=12)
+    ax.set_ylabel("True Label", fontsize=12)
+    ax.set_title("Facial Emotion Recognition - Confusion Matrix", fontsize=14)
+    plt.tight_layout()
+
+    if save_path:
+        fig.savefig(save_path, dpi=300)
+
+    return fig
