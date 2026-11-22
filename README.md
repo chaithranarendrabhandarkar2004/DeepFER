@@ -242,10 +242,6 @@ Facial expression classification is an experimental machine learning task. A mod
 
 Click any screenshot to view it in full size.
 
-## 📸 Project Screenshots
-
-Click any screenshot to view it in full size.
-
 ### 🏠 Home Dashboard
 [![DeepFER Dashboard](screenshots/dashboard.png)](screenshots/dashboard.png)
 
